@@ -1,19 +1,17 @@
+
 const h1 = document.getElementById('h1_verde');
-// console.log(h1);
+const input_calculo1 = document.querySelector('#input_calculo1');
+const input_calculo2 = document.querySelector('#input_calculo2');
+const btnCalcular = document.querySelector('#btnCalcular');
+const result = document.querySelector('#result');
 
-const input_calculo1 = document.getElementById('input_calculo1');
-const input_calculo2 = document.querySelector('.input_calculo2');
+function botonClic(){
+    const sumaInputs = input_calculo1.value + input_calculo2.value;
+    result.innerHTML = sumaInputs;
+}
 
-const btnCalcular = document.getElementById('btnCalcular');
 
-console.log(
-    h1,
-    input_calculo1,
-    input_calculo2,
-    btnCalcular
-);
+input_calculo2.addEventListener('change', cambiarInput2)
+btnCalcular.addEventListener('click', botonClic);
 
-// const img = document.createElement('img');
-// console.log(img);
 
-// input_calculo1.append(img);
