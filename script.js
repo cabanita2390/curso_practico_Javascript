@@ -14,4 +14,4 @@ function botonClic(){
 input_calculo2.addEventListener('change', cambiarInput2)
 btnCalcular.addEventListener('click', botonClic);
 
-
+console.log('prueba');
