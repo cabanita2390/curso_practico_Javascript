@@ -31,3 +31,13 @@ btnCalcular2.addEventListener("mouseover", botonClic2);
 function botonClic2() {
   console.log('Pasó mouse sobre btn calcular 2');
 }
+
+//////////////////
+
+const btnCalcular3 = document.querySelector("#btnCalcular3");
+
+btnCalcular3.addEventListener("mouseout", botonClic3);
+
+function botonClic3() {
+  console.log('Salió mouse del btn calcular 3');
+}
