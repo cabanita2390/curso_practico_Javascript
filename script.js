@@ -26,8 +26,8 @@ function botonClic1() {
 
 const btnCalcular2 = document.querySelector("#btnCalcular1");
 
-btnCalcular1.addEventListener("dblclick", botonClic1);
+btnCalcular2.addEventListener("dblclick", botonClic2);
 
-function botonClic1() {
+function botonClic2() {
   console.log('Doble clic en el botón de calcular');
 }
